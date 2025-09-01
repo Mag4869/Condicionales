@@ -7,17 +7,24 @@ A= float(input ("Ingresa tu primer numero :"))
 B= float(input ("Ingrese tu segundo numero :"))
 print("En esta linea, se trabajara el comparativo <")
 if(A<B):
-    print (f"El primer numero {A} es menor que el segundo numero {B}")
+    print (f"El primer numero {A} si es menor que el segundo numero {B}")
 else:
-    print (f"El primer numero {A} no es mayor que el segundo numero {B}")
+    print ("No se cumple este condicional entre el primer y segundo numero")
 print("En esta linea, se trabajara el comparativo <")
 if(A>B):
-    print (f"El primer numero {A} es mayor que el segundo numero {B}")
+    print (f"El primer numero {A} si es mayor que el segundo numero {B}")
 else:
-    print (f"El primer numero {A}  es menor que el segundo numero {B}")
+    print ("No se cumple este condicional entre el primer y segundo numero")
 print("En esta linea, se trabajara el comparativo =")
 if(A==B):
-    print ("Ambos numeros son iguales")
+    print ("Ambos numeros si son iguales")
 else:
-    print (f"El primer numero {A} es diferente del segundo numero {B}")
-    515
+    print ("Los numeros no son iguales")
+print("En esta linea, se trabajara el comparativo mayor o igual")
+if(A<=B):
+    if (A<B):
+        print(f"El primer numero {A} si es menor que el segundo numero {B}")
+    if (A==B):
+        print(f"El primer numero {A} es igual que el segundo numero {B}")
+else:
+    print (f"El primer numero {A} no es menor o igual que el segundo numero {B}")
