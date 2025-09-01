@@ -28,3 +28,11 @@ if(A<=B):
         print(f"El primer numero {A} es igual que el segundo numero {B}")
 else:
     print (f"El primer numero {A} no es menor o igual que el segundo numero {B}")
+    print("En esta linea, se trabajara el comparativo mayor o igual")
+if(A>=B):
+    if (A>B):
+        print(f"El primer numero {A} si es mayor que el segundo numero {B}")
+    if (A==B):
+        print(f"El primer numero {A} es igual que el segundo numero {B}")
+else:
+    print (f"El primer numero {A} no es mayor o igual que el segundo numero {B}")
