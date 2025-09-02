@@ -10,7 +10,7 @@ if(A<B):
     print (f"El numero {A} si es menor que el numero {B}")
 else:
     print ("No se cumple este condicional entre el primer y segundo numero")
-print("En esta linea, se trabajara el comparativo <")
+print("En esta linea, se trabajara el comparativo >")
 if(A>B):
     print (f"El  numero {A} si es mayor que el numero {B}")
 else:
